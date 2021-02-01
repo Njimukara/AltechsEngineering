@@ -1,0 +1,39 @@
+.project {
+  padding: 0 10% 5% 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project__card {
+  width: 20rem;
+  padding: 5px 10px 3% 10px;
+  position: relative;
+  filter: drop-shadow(0 0 0.75rem rgba(197, 197, 197, 0.345));
+}
+
+.project__card_img {
+  width: 90px;
+  max-width: 100%;
+  max-height: fit-content;
+  height: 150px;
+  object-fit: contain;
+}
+
+.project__card_title {
+  padding: 5% 5% 5% 0;
+  color: green;
+  font-weight: bold !important;
+  font-size: larger !important;
+}
+
+.project__card_text {
+  font-size: medium;
+}
+
+.project__card_button {
+  position: absolute;
+  color: white;
+  padding: 3px 9px;
+  background-color: green;
+  margin-top: 5px !important;
+}

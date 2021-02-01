@@ -1,0 +1,12 @@
+.App {
+  background: rgba(246, 246, 246, 0.303);
+}
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+a:hover {
+  text-decoration: none !important;
+}

@@ -1,0 +1,192 @@
+.projectdetails {
+  padding: 5% 10%;
+}
+
+.projectdetails__details {
+  overflow: hidden;
+}
+
+.heading {
+  margin-left: 0;
+  padding-bottom: 3%;
+  color: rgb(2, 137, 2);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.update_heading {
+  padding-bottom: 1%;
+  margin-left: 30% !important;
+  color: rgb(2, 137, 2);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.message_heading {
+  padding-bottom: 4%;
+  margin-left: 0 !important;
+  color: rgb(2, 137, 2);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.first_column {
+  flex: 1;
+  margin-left: 5%;
+}
+.second_column {
+  flex: 1;
+  margin: 0 7%;
+}
+
+.projectdetails__row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.projectdetails__image {
+  flex: 1;
+}
+
+.projectdetails__image img {
+  width: 350px;
+  object-fit: contain;
+  padding-left: 5%;
+}
+
+.projectdetails__detail {
+  flex: 2;
+  padding-left: 5%;
+}
+
+.projectdetails__id {
+  text-align: right;
+}
+
+.projectdetails__title {
+  text-align: left;
+  color: rgb(60, 193, 30);
+  font-weight: 400;
+  font-size: xx-large;
+}
+
+.projectdetails__engineers {
+  text-align: left;
+}
+
+.projectdetails__engineers span {
+  padding: 3% 3% 3% 0;
+  margin-bottom: 4%;
+  font-size: large;
+}
+
+.projectdetails__info {
+  padding-top: 4%;
+  text-align: justify;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.completed {
+  margin-left: 3%;
+  margin-top: 3px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: x-large;
+  padding-bottom: 1%;
+}
+
+.projectdetails__button {
+  padding: 1% 2%;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 80%;
+}
+
+.projectdetails__button:hover {
+  background: rgb(67, 215, 34);
+}
+
+.projectdetails__details {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 0;
+  background: #fff;
+  width: 100%;
+}
+
+.indicator {
+  color: rgb(2, 137, 2);
+  position: relative;
+  font-size: xx-large;
+  margin-top: -120px;
+  margin-bottom: 100px;
+  left: 75px;
+}
+.indicator_paragraph {
+  position: relative;
+  color: rgb(2, 137, 2);
+  margin-top: -140px;
+  margin-bottom: 100px;
+  font-size: x-large;
+  left: 35%;
+}
+
+.updateProject__form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 10px;
+  margin: 2% 1% 2% 2%;
+  filter: drop-shadow(0 0 0.75rem rgba(197, 197, 197, 0.345));
+  overflow: hidden;
+}
+
+.project__progress input {
+  margin-left: 10px;
+}
+
+.newProgress,
+.progress__button {
+  width: 40%;
+}
+
+.card__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.addTeam {
+  width: 60%;
+}
+.accordion {
+  padding-top: 5%;
+}
+
+.progress_data li {
+  list-style: none;
+  margin-left: 8%;
+}
+
+.progress_data > h5 {
+  text-align: left;
+  color: green;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0 !important;
+  padding: 5px 0;
+}
+
+.card-header {
+  background-color: rgba(60, 193, 30, 0.772) !important;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.service {
+  overflow: hidden;
+  padding-bottom: 5%;
+}
+
+.service__cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service__card_img {
+  width: 300px;
+  max-width: 100%;
+  max-height: 400px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.service__card {
+  width: 15rem;
+  padding: 1px;
+  position: relative;
+  filter: drop-shadow(0 0 0.75rem rgba(197, 197, 197, 0.345));
+  margin: 5% 1% 5% 3%;
+}
+
+.service__card_title {
+  padding: 5% 5% 5% 0;
+  color: green;
+  font-weight: bold !important;
+  font-size: larger !important;
+}
+
+.service__card_text {
+  font-size: medium;
+  text-align: justify;
+}
+
+.service__card_button {
+  position: absolute;
+  color: green;
+}

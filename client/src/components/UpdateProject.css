@@ -1,0 +1,9 @@
+.dates {
+  display: flex;
+  padding: 2% 0;
+}
+
+.date {
+  width: 40%;
+  margin: 0 5px 0 5px;
+}

@@ -1,0 +1,92 @@
+.register {
+  padding: 5% 10%;
+  background: rgba(246, 246, 246, 0.303);
+}
+
+h2 {
+  padding-top: 3% 0;
+  font-size: xx-large;
+  color: white;
+}
+
+h5 {
+  padding: 0 5%;
+  font-weight: 300;
+  font-size: medium;
+  text-align: center;
+  margin-top: 20px !important;
+}
+
+h5 span {
+  color: rgb(60, 193, 30);
+  font-size: medium !important;
+}
+
+h5 span:hover {
+  color: rgb(67, 215, 34);
+  font-size: large !important;
+  cursor: pointer;
+}
+
+.register__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+}
+
+.register__card_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(60, 193, 30, 0.655);
+  width: 500px;
+  padding: 1%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.register__card_logo img {
+  width: 20%;
+  object-fit: contain;
+}
+
+.register__card_form {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  border: 1px soild black;
+}
+
+.form__data {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  border: 1px soild black;
+}
+
+.register__card_form label {
+  font-weight: 500;
+}
+
+.register__card_form input {
+  padding: 2%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 2%;
+  background-color: rgba(60, 193, 30, 0.772);
+  color: white;
+  font-weight: 500;
+  border: hidden;
+  font-size: large !important;
+  margin-top: 20px !important;
+}

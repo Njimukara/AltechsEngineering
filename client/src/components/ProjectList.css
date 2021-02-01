@@ -1,0 +1,47 @@
+.projectList {
+  padding-bottom: 5%;
+  width: 100%;
+}
+
+.projectList__heading {
+  margin: 2% 2% 0 2%;
+  color: green;
+  font-weight: 400;
+  font-size: xx-large;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.projectList__button {
+  padding: 10px 1%;
+  margin-left: 80%;
+  position: absolute;
+  border-radius: 5px;
+  color: rgb(251, 245, 238);
+  cursor: pointer;
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
+
+.projectList__button:hover {
+  background: rgba(68, 222, 34, 0.772);
+  color: white;
+}
+
+.heading {
+  color: green;
+  text-align: center;
+}
+
+.sad__icon {
+  width: 100px !important;
+  height: 70px !important;
+  color: green;
+  padding-bottom: 5px;
+}
+/* 
+.icon {
+  margin-left: 45%;
+} */
